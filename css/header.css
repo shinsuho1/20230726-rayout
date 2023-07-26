@@ -1,0 +1,62 @@
+header{
+    width: 100%;
+    /* border-bottom: 1px solid #ddd; */
+}
+
+header .inner{
+    width: 1180px;
+    height: 120px;
+    margin: 0px auto;
+    position: relative;
+    /* background-color: #eee; */
+}
+
+header .inner h1{
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+
+/* 글은 a태그에 작성하였기 때문에 h1에는 폰트가 적용이 안된다
+반드시 글을 작성한 a태그에 font를 적용합니다. */
+header .inner h1 a{
+    font: bold 24px/1 "arial";
+    color: #444;
+}
+
+/* menu Web */
+header .inner .menuWeb #gnb{
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+
+header .inner .menuWeb #gnb li{
+    float: left;
+}
+
+header .inner .menuWeb #gnb li a{
+    display: block;
+    padding: 14px 40px;
+    font: bold 14px/1 "arial";
+    color: #777;
+}
+header .inner .menuWeb #gnb li a:hover{
+    background-color: #555;
+    color: #fff;
+}
+
+header .inner .menuWeb .util{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+header .inner .menuWeb .util li{
+    float: left;
+    margin-left: 20px;
+}
+
+header .inner .menuWeb .util li a{
+    font: 12px/1 "arial";
+    color: #999;
+}
